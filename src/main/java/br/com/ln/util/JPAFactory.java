@@ -6,7 +6,7 @@ import javax.persistence.Persistence;
 
 public class JPAFactory {
 
-	private static EntityManagerFactory emf = Persistence.createEntityManagerFactory("loja-natalina-db-unit");
+	private static EntityManagerFactory emf = Persistence.createEntityManagerFactory("loja-nalatina-db-unit");
 	
 	public EntityManager getEntityManager() {
 		return emf.createEntityManager();
