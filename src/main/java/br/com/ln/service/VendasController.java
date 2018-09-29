@@ -9,7 +9,7 @@ import br.com.ln.util.JPAFactory;
 
 public class VendasController {
 	
-	public BigDecimal getTotalVendasMensal(String tipoValorTotal, int mes, String status, String tipoEmissao) {
+	public BigDecimal getTotalVendasMensal(String tipoValorTotal, Integer mes, String status, String tipoEmissao) {
 		
 		EntityManager manager = new JPAFactory().getEntityManager();
 		manager.getTransaction().begin();

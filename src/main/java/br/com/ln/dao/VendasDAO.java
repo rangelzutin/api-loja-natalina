@@ -13,7 +13,7 @@ private EntityManager manager;
 		this.manager = manager;
 	}
 	
-	public BigDecimal getTotalVendasMensal(String tipoValorTotal, int mes, String status, String tipoEmissao) {
+	public BigDecimal getTotalVendasMensal(String tipoValorTotal, Integer mes, String status, String tipoEmissao) {
 		
 		StringBuilder jpql = new StringBuilder();
 		
